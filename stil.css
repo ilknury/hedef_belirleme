@@ -1,0 +1,41 @@
+@charset "utf-8";
+.container {
+	color: white;
+}
+.logo {
+	float:left;
+	margin-right: 10px;
+}
+
+.firma {
+	margin-top:60px;
+	font-size: 25px;
+	text-align: left;
+}
+#menu {
+	margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#menu li {
+	float: left;
+    width: 150px;
+    position: relative;
+}
+#menu a {
+	font-family: "Verdana", Times, serif;
+    font-size: 16px;
+    color: #004080;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    padding-top: 5px;
+    padding-right: 5px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 2px;
+}
+#menu a:hover {
+	background-color: #0099FF;
+}
